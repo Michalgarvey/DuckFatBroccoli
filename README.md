@@ -1,7 +1,8 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is my long awaited blog "Duck Fat Broccoli".  It documents one of my favourite things - eating; but also allows me to utilise and practice my newly acquired skills as a web developer. 
+
+This blog is just my second Ruby on Rails project and I hope it will run better than my first.
 
 Things you may want to cover:
 
