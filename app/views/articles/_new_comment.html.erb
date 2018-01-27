@@ -1,0 +1,12 @@
+<h3>Thoughts? Add a Comment</h3>
+
+  <%= form_for([@article, @article.comments.build]) do |f| %>
+    <p>
+      <%= f.label :body, "Comments" %><br>
+      <%= f.textarea :body %>
+    </p>
+
+    <p>
+      <%= f.submit "Submit" %>
+    </p>
+  <% end %>

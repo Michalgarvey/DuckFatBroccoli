@@ -1,0 +1,13 @@
+<div class="article-comments">
+  <% @comments.each do |comment| %>
+    <div class="row">
+      <hr>
+      <p>
+        <%= "#{time_ago_in_words(comment.created_at)} ago"  %>
+      </p>
+      <p>
+        <%= comment.body %>
+      </p>
+    </div>
+  <% end %>
+</div>

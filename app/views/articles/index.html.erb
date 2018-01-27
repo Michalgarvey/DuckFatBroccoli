@@ -16,7 +16,6 @@
     <% @articles.each do |article| %>
       <tr>
         <td><%= article.Title %></td>
-        <td><%= article.content %></td>
         <td><%= article.image_url %></td>
         <td><%= link_to 'Show', article %></td>
         <td><%= link_to 'Edit', edit_article_path(article) %></td>
