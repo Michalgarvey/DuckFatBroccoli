@@ -30,10 +30,23 @@ footer {
 
 .navbar {
   background-color: #162626;
+  min-height: 60px;
 }
+
+.nav>li>a {
+    padding: 20px 15px;
+  }
+
+
 
 input, textarea {
   background-color: black;
   border-width: 2px;
 
+}
+
+.project-name {
+font-family: 'Titillium Web', sans-serif;
+font-size: 5em;
+margin-top: 20px;
 }
