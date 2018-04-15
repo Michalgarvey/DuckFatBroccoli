@@ -12,7 +12,7 @@
 
 <p>
   <strong>Image url:</strong>
-  <%= @article.image_url %>
+  <%= image_tag(@article.image_url, class: "img-responsive)" %>
 </p>
 
 <%= render 'comments' %>
